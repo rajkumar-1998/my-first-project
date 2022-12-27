@@ -1,0 +1,22 @@
+package com.training.area;
+
+public class Area {
+
+	public void rectangle(float l, float b) {
+		float area = l*b;
+		float perimeter = 2*(l+b);
+		System.out.println("Area of rectangle="+area);
+		System.out.println("Perimeter of rectangle="+perimeter);
+	}
+}package com.training.area;
+
+public class TestArea {
+
+	public static void main(String args[]) {
+		Area area = new Area();
+		area.rectangle(5, 4);
+	}
+}
+
+
+

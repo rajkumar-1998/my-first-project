@@ -1,0 +1,20 @@
+package com.training.area;
+
+public class Area {
+
+	public void rectangle(float l, float b); 
+	
+public static void main(String[] args) {
+		int length=14;
+		int breadth=20;
+		int area = length * breadth; 
+		System.out.println("Area="+ area);
+		int perimeter = length + breadth;
+		System.out.println("Perimeter="+perimeter); 
+
+		
+	}
+
+}
+
+
